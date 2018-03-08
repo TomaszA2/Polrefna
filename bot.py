@@ -15,7 +15,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.author.nick == "Kakyoin":
-        tmp = await client.send_message(message.channel, 'OH MY GOD!')
+    if message.author.nick == "Joseph":
+        tmp = await client.send_message(message.channel, 'Impossible!')
 
-client.run(os.getenv('TOKEN_JOSE'))
+client.run(os.getenv('TOKEN'))
